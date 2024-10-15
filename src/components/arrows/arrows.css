@@ -1,0 +1,18 @@
+.arrows-container {
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+}
+.arrows-container img {
+  position: absolute;
+  width: 25px;
+}
+.arrows-container img:nth-child(1) {
+  left: 0;
+}
+.arrows-container img:nth-child(2) {
+  left: 18px;
+}
+.arrows-container img:nth-child(3) {
+  left: 36px;
+}/*# sourceMappingURL=arrows.css.map */

@@ -1,0 +1,12 @@
+.octagon-star-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+.octagon-star {
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=OctagonStar.css.map */

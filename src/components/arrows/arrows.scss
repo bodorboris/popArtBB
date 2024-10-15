@@ -1,0 +1,21 @@
+.arrows-container {
+	position: relative;
+	width: max-content;
+
+	img {
+		position: absolute;
+		width: 25px;
+
+		&:nth-child(1) {
+			left: 0;
+		}
+
+		&:nth-child(2) {
+			left: 18px;
+		}
+
+		&:nth-child(3) {
+			left: 36px;
+		}
+	}
+}

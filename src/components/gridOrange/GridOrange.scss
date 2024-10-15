@@ -1,0 +1,15 @@
+.grid-orange {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	height: 200px;
+	width: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+.circle-image {
+	width: 100%;
+	height: auto;
+	transition: transform 0.2s ease;
+}

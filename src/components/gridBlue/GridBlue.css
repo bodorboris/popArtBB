@@ -1,0 +1,15 @@
+.grid-blue {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  height: 200px;
+  width: 75px;
+  justify-content: center;
+  align-items: center;
+}
+
+.octagon-image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}/*# sourceMappingURL=GridBlue.css.map */
