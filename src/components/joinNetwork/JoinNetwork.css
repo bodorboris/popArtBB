@@ -104,7 +104,6 @@
   z-index: 500;
 }
 
-/* Media query for screens with a max width of 900px */
 @media (max-width: 900px) {
   .discordGiga {
     top: 65%;
@@ -137,7 +136,6 @@
     transform: scale(0.6);
   }
 }
-/* Media query for screens with a max width of 360px */
 @media (max-width: 360px) {
   .join-network-container {
     overflow-x: hidden;

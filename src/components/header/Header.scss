@@ -4,13 +4,15 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 100px;
+	height: 80px;
 	width: 100%;
 	padding: 0 5%;
 	background-color: $purple;
 	box-sizing: border-box;
-	position: relative;
-	z-index: 1000; // Ensure header is above other components
+	position: fixed;
+	top: 0;
+	z-index: 9000;
+	box-shadow: 0px 9px 15px -1px rgba(255, 255, 255, 0.21);
 
 	.logo {
 		height: 40px;
@@ -42,11 +44,10 @@
 		bottom: -40px;
 		right: 50%;
 		height: 50px;
-		z-index: 2000; // Ensure sedmogon is above the header
+		z-index: 2000;
 	}
 }
 
-/* Media query for screens with a max-width of 900px */
 @media (max-width: 900px) {
 	.header {
 		flex-direction: column;
@@ -86,7 +87,6 @@
 	}
 }
 
-/* Media query for screens with a max-width of 360px */
 @media (max-width: 360px) {
 	.header {
 		flex-direction: column;

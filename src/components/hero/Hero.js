@@ -10,6 +10,7 @@ import quoraLogo from "../../img/quoraLogo.png";
 import youtubeLogo from "../../img/youtubeLogo.png";
 import devetgonYellow from "../../img/devetgonYellow.png";
 import OctagonStar from "../octagonStar/OctagonStar.js";
+import sedmogonYellow from "../../img/sedmogonYellow.png";
 
 function Hero() {
 	const [spinSpring, setSpinSpring] = useSpring(() => ({
@@ -55,6 +56,18 @@ function Hero() {
 	return (
 		<div className="hero">
 			<div className="hero-content">
+				<animated.img
+					src={sedmogonYellow}
+					alt="Sedmogon Yellow"
+					className="sedmogon"
+					style={spinSpring}
+					onMouseEnter={() =>
+						setSpinSpring({ transform: "rotate(360deg)" })
+					}
+					onMouseLeave={() =>
+						setSpinSpring({ transform: "rotate(0deg)" })
+					}
+				/>
 				<h1 className="hero-header">
 					LOREM IPSUM DOLOR SIT AMET
 					<span className="highlight"> CONSECTETUR</span>
@@ -76,80 +89,7 @@ function Hero() {
 					}
 				/>
 			</div>
-			<div className="hero-images">
-				<animated.img
-					src={githubLogo}
-					alt="GitHub"
-					className="social-logo"
-					style={githubSpring}
-					onMouseEnter={() =>
-						setGithubSpring({ transform: "scale(1.4)" })
-					}
-					onMouseLeave={() =>
-						setGithubSpring({ transform: "scale(1)" })
-					}
-				/>
-				<animated.img
-					src={discordLogo}
-					alt="Discord"
-					className="social-logo"
-					style={discordSpring}
-					onMouseEnter={() =>
-						setDiscordSpring({ transform: "scale(1.4)" })
-					}
-					onMouseLeave={() =>
-						setDiscordSpring({ transform: "scale(1)" })
-					}
-				/>
-				<animated.img
-					src={stackOverflowLogo}
-					alt="Stack Overflow"
-					className="social-logo"
-					style={stackOverflowSpring}
-					onMouseEnter={() =>
-						setStackOverflowSpring({ transform: "scale(1.4)" })
-					}
-					onMouseLeave={() =>
-						setStackOverflowSpring({ transform: "scale(1)" })
-					}
-				/>
-				<animated.img
-					src={redditLogo}
-					alt="Reddit"
-					className="social-logo"
-					style={redditSpring}
-					onMouseEnter={() =>
-						setRedditSpring({ transform: "scale(1.4)" })
-					}
-					onMouseLeave={() =>
-						setRedditSpring({ transform: "scale(1)" })
-					}
-				/>
-				<animated.img
-					src={quoraLogo}
-					alt="Quora"
-					className="social-logo"
-					style={quoraSpring}
-					onMouseEnter={() =>
-						setQuoraSpring({ transform: "scale(1.4)" })
-					}
-					onMouseLeave={() =>
-						setQuoraSpring({ transform: "scale(1)" })
-					}
-				/>
-				<animated.img
-					src={youtubeLogo}
-					alt="YouTube"
-					className="social-logo"
-					style={youtubeSpring}
-					onMouseEnter={() =>
-						setYoutubeSpring({ transform: "scale(1.4)" })
-					}
-					onMouseLeave={() =>
-						setYoutubeSpring({ transform: "scale(1)" })
-					}
-				/>
-			</div>
+
 			<animated.img
 				src={devetgonYellow}
 				alt="Devetgon Yellow"

@@ -3,12 +3,13 @@
 .hero {
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-start; // Align items to the top
+	align-items: flex-start;
 	width: 100%;
 	padding: 20px;
 	box-sizing: border-box;
 	background-color: $purple;
-	position: relative; // Ensure absolute positioning works within this container
+	position: relative;
+	padding-top: 10%;
 }
 
 .hero-content {
@@ -21,7 +22,7 @@
 	margin-bottom: 20px;
 	text-align: left;
 	padding-left: 20%;
-	text-transform: uppercase; // Make the header text all uppercase
+	text-transform: uppercase;
 
 	.highlight {
 		color: yellow;
@@ -46,7 +47,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	justify-content: flex-start; // Align items to the top within its own div
+	justify-content: flex-start;
 	padding-right: 20px;
 	padding-top: 5%;
 
@@ -61,20 +62,27 @@
 	position: absolute;
 	bottom: -5%;
 	right: 28%;
-	width: 100px; // Adjust size as needed
+	width: 100px;
 	height: auto;
-	z-index: 10; // Ensure it stays on top of other elements
+	z-index: 10;
 }
 
 .octagon-star-hero {
 	position: absolute;
 	bottom: 5%;
 	left: 20%;
-	width: 100px; // Adjust size as needed
+	width: 100px;
 	height: auto;
 }
 
-/* Media query for screens with a max-width of 900px */
+.sedmogon {
+	position: absolute;
+	top: 25%;
+	right: 50%;
+	height: 50px;
+	z-index: 2000;
+}
+
 @media (max-width: 900px) {
 	.hero {
 		flex-direction: column;
@@ -125,7 +133,6 @@
 	}
 }
 
-/* Media query for screens with a max-width of 360px */
 @media (max-width: 360px) {
 	.hero-header {
 		font-size: 60px;

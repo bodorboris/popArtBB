@@ -42,7 +42,6 @@
 	transform: translateY(-50%);
 }
 
-/* Media query for screens with a max width of 900px */
 @media (max-width: 900px) {
 	.introduction-header {
 		font-size: 50px;
@@ -61,7 +60,6 @@
 	}
 }
 
-/* Media query for screens with a max width of 360px */
 @media (max-width: 360px) {
 	.introduction-header {
 		font-size: 40px;

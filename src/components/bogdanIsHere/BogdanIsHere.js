@@ -13,7 +13,7 @@ function BogdanIsHere() {
 	const spinAnimation = useSpring({
 		transform: spin ? "rotate(360deg)" : "rotate(0deg)",
 		config: { duration: 1000 },
-		onRest: () => setSpin(false), // Reset spin state after animation completes
+		onRest: () => setSpin(false),
 	});
 
 	const handleSpin = () => {

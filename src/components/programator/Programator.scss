@@ -4,11 +4,11 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh; // Full viewport height
-	width: 100%; // Full viewport width
+	height: 100vh;
+	width: 100%;
 	position: relative;
 	background-color: $purple;
-	overflow-x: hidden; // Prevent horizontal scrolling
+	overflow-x: hidden;
 }
 
 .image-container {
@@ -30,14 +30,14 @@
 	position: absolute;
 	left: 3%;
 	top: 10%;
-	transform: translateX(-50%); // Ensure it stays within the viewport
+	transform: translateX(-50%);
 }
 
 .prog-grid-blue {
 	position: absolute;
 	right: 1%;
 	top: 75%;
-	transform: translateX(50%); // Ensure it stays within the viewport
+	transform: translateX(50%);
 }
 
 .prog-arrows {
@@ -47,7 +47,7 @@
 	transform: translateX(-50%);
 }
 
-/* Media query for screens with a max-width of 900px */
+
 @media (max-width: 900px) {
 	.programator-container {
 		flex-direction: column;
@@ -82,7 +82,7 @@
 	}
 }
 
-/* Media query for screens with a max-width of 360px */
+
 @media (max-width: 360px) {
 	.programator-container {
 		flex-direction: column;

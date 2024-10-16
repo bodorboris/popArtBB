@@ -3,7 +3,6 @@ import { useSpring, animated } from "react-spring";
 import "./Header.scss";
 import logoIpsum from "../../img/logoIpsum.png";
 import line from "../../img/line.png";
-import sedmogonYellow from "../../img/sedmogonYellow.png";
 
 function Header() {
 	const [homeSpring, setHomeSpring] = useSpring(() => ({
@@ -14,11 +13,6 @@ function Header() {
 	const [docSpring, setDocSpring] = useSpring(() => ({
 		transform: "scale(1)",
 		config: { tension: 300, friction: 10 },
-	}));
-
-	const [spinSpring, setSpinSpring] = useSpring(() => ({
-		transform: "rotate(0deg)",
-		config: { duration: 500 },
 	}));
 
 	return (
@@ -49,18 +43,6 @@ function Header() {
 					Documentation
 				</animated.span>
 			</div>
-			<animated.img
-				src={sedmogonYellow}
-				alt="Sedmogon Yellow"
-				className="sedmogon"
-				style={spinSpring}
-				onMouseEnter={() =>
-					setSpinSpring({ transform: "rotate(360deg)" })
-				}
-				onMouseLeave={() =>
-					setSpinSpring({ transform: "rotate(0deg)" })
-				}
-			/>
 		</div>
 	);
 }

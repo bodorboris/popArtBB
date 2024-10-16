@@ -23,7 +23,7 @@
 }
 
 .contributors-section {
-  width: 20%; /* Three sections per row */
+  width: 20%;
   margin-right: 10%;
   margin-bottom: 20px;
   text-align: left;
@@ -66,20 +66,18 @@
   text-align: left;
 }
 
-/* Media query for screens with a max width of 900px */
 @media (max-width: 900px) {
   .contributors-header {
     font-size: 60px;
     width: 100%;
   }
   .contributors-section {
-    width: 35%; /* Two sections per row */
+    width: 35%;
   }
   .contributors-footer {
     font-size: 36px;
   }
 }
-/* Media query for screens with a max width of 360px */
 @media (max-width: 360px) {
   .contributors-header {
     font-size: 30px;
@@ -89,7 +87,7 @@
     width: 100%;
   }
   .contributors-section {
-    width: 100%; /* Full width for each section */
+    width: 100%;
   }
   .contributors-footer {
     font-size: 30px;

@@ -6,7 +6,7 @@
 	padding-left: 20%;
 	box-sizing: border-box;
 	position: relative;
-	overflow-x: hidden; // Prevent horizontal scrolling
+	overflow-x: hidden;
 	padding-top: 10%;
 	padding-bottom: 10%;
 }
@@ -26,7 +26,7 @@
 }
 
 .news-section {
-	width: 45%; /* Two sections per row */
+	width: 45%;
 	margin-bottom: 20px;
 	text-align: left;
 }
@@ -115,7 +115,6 @@
 	}
 }
 
-/* Media query for screens with a max width of 360px */
 @media (max-width: 360px) {
 	.news-header {
 		font-size: 30px;
@@ -127,7 +126,7 @@
 	}
 
 	.news-section {
-		width: 100%; /* Full width for each section */
+		width: 100%;
 	}
 
 	.news-footer {

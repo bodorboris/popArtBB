@@ -3,7 +3,7 @@
   width: 100%;
   padding-left: 20%;
   box-sizing: border-box;
-  position: relative; /* Ensure child elements are positioned relative to this container */
+  position: relative;
 }
 
 .description-header {
@@ -57,7 +57,6 @@
   transform: translate(-50%, -50%);
 }
 
-/* Media query for screens with a max width of 900px */
 @media (max-width: 900px) {
   .description-header {
     font-size: 60px;
@@ -78,7 +77,6 @@
     top: 25%;
   }
 }
-/* Media query for screens with a max width of 360px */
 @media (max-width: 360px) {
   .description-header {
     font-size: 40px;

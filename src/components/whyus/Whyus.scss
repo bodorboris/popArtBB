@@ -6,7 +6,7 @@
 	padding-left: 20%;
 	box-sizing: border-box;
 	position: relative;
-	overflow-x: hidden; // Prevent horizontal scrolling
+	overflow-x: hidden;
 }
 
 .whyus-header {
@@ -28,7 +28,7 @@
 }
 
 .whyus-section {
-	width: 30%; /* Three sections per row */
+	width: 30%;
 	margin-bottom: 20px;
 }
 
@@ -60,7 +60,6 @@
 	transform: translateX(-50%);
 }
 
-/* Media query for screens with a max width of 900px */
 @media (max-width: 900px) {
 	.whyus-header {
 		font-size: 60px;
@@ -72,7 +71,7 @@
 	}
 
 	.whyus-section {
-		width: 48%; /* Two sections per row */
+		width: 48%;
 	}
 
 	.dblHexer {
@@ -92,7 +91,6 @@
 	}
 }
 
-/* Media query for screens with a max width of 360px */
 @media (max-width: 360px) {
 	.whyus-header {
 		font-size: 40px;
@@ -104,7 +102,7 @@
 	}
 
 	.whyus-section {
-		width: 100%; /* Full width for each section */
+		width: 100%;
 	}
 	.whyus-devetgon-yellow {
 		position: absolute;

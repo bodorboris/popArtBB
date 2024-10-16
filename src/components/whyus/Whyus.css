@@ -26,7 +26,7 @@
 }
 
 .whyus-section {
-  width: 30%; /* Three sections per row */
+  width: 30%;
   margin-bottom: 20px;
 }
 
@@ -61,7 +61,6 @@
   transform: translateX(-50%);
 }
 
-/* Media query for screens with a max width of 900px */
 @media (max-width: 900px) {
   .whyus-header {
     font-size: 60px;
@@ -71,7 +70,7 @@
     width: 80%;
   }
   .whyus-section {
-    width: 48%; /* Two sections per row */
+    width: 48%;
   }
   .dblHexer {
     visibility: hidden;
@@ -89,7 +88,6 @@
     transform: translateX(-50%);
   }
 }
-/* Media query for screens with a max width of 360px */
 @media (max-width: 360px) {
   .whyus-header {
     font-size: 40px;
@@ -99,7 +97,7 @@
     width: 100%;
   }
   .whyus-section {
-    width: 100%; /* Full width for each section */
+    width: 100%;
   }
   .whyus-devetgon-yellow {
     position: absolute;

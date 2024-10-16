@@ -1,0 +1,42 @@
+@import "../../colors/colors.scss";
+
+.social-sidebar {
+	position: fixed;
+	top: 80%;
+	right: 0;
+	transform: translateY(-50%);
+	background-color: $purple;
+	padding: 10px;
+	box-sizing: border-box;
+	z-index: 1000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 15px;
+	box-shadow: 0px 0px 15px 8px rgba(255, 255, 255, 0.24);
+
+	.social-logo {
+		width: 32px;
+		height: 32px;
+		margin: 10px 0;
+		cursor: pointer;
+	}
+}
+
+@media (max-width: 900px) {
+	.social-sidebar {
+		.social-logo {
+			width: 28px;
+			height: 28px;
+		}
+	}
+}
+
+@media (max-width: 360px) {
+	.social-sidebar {
+		.social-logo {
+			width: 24px;
+			height: 24px;
+		}
+	}
+}

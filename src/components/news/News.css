@@ -24,7 +24,7 @@
 }
 
 .news-section {
-  width: 45%; /* Two sections per row */
+  width: 45%;
   margin-bottom: 20px;
   text-align: left;
 }
@@ -114,7 +114,6 @@
     visibility: hidden;
   }
 }
-/* Media query for screens with a max width of 360px */
 @media (max-width: 360px) {
   .news-header {
     font-size: 30px;
@@ -124,7 +123,7 @@
     width: 100%;
   }
   .news-section {
-    width: 100%; /* Full width for each section */
+    width: 100%;
   }
   .news-footer {
     font-size: 30px;

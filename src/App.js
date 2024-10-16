@@ -13,11 +13,13 @@ import JoinNetwork from "./components/joinNetwork/JoinNetwork.js";
 import Introduction from "./components/introduction/Introduction.js";
 import News from "./components/news/News.js";
 import Footer from "./components/footer/Footer.js";
+import SocialSidebar from "./components/socialSidebar/SocialSidebar.js";
 
 function App() {
 	return (
 		<AppContainer>
 			<Header />
+			<SocialSidebar />
 			<Hero />
 			<Programator />
 			<Description />

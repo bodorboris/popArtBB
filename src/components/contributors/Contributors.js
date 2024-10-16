@@ -39,7 +39,7 @@ const initialContributorsData = [
 	{
 		image: contributorImage,
 		header: "Contributor 6",
-		joinBtn: true, // Indicate that this contributor should have a join button
+		joinBtn: true,
 	},
 ];
 
