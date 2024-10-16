@@ -1,0 +1,180 @@
+.join-network-container {
+  background-color: #361281;
+  width: 100%;
+  padding-left: 20%;
+  padding-top: 20%;
+  box-sizing: border-box;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: 500;
+}
+
+.join-network-header {
+  font-size: 70px;
+  width: 50%;
+  color: #FFFFFF;
+  margin-bottom: 15%;
+}
+
+.yellow-start {
+  color: #D5FF2F;
+}
+
+.joinGrid {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  transform: translateX(-50%);
+}
+
+.joinStar {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  transform: translateX(-50%);
+  z-index: 550;
+}
+
+.joinArrows {
+  position: absolute;
+  top: 15%;
+  right: 22%;
+  transform: translateX(-50%);
+}
+
+.joinOrange {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  transform: translateX(-50%);
+  z-index: 500;
+}
+
+.gigaContainer {
+  width: 80%;
+  height: 600px;
+}
+
+.discordGiga {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  transform: translateX(-50%);
+  z-index: 500;
+}
+
+.gitGiga {
+  position: absolute;
+  top: 47%;
+  left: 46%;
+  transform: translateX(-50%);
+  z-index: 500;
+}
+
+.stackGiga {
+  position: absolute;
+  top: 60%;
+  left: 62%;
+  transform: translateX(-50%);
+  z-index: 500;
+}
+
+.quoraGiga {
+  position: absolute;
+  top: 78%;
+  right: 25%;
+  transform: translateX(-50%);
+  z-index: 500;
+}
+
+.redditGiga {
+  position: absolute;
+  top: 81%;
+  right: 14.5%;
+  transform: translateX(-50%);
+  z-index: 500;
+}
+
+.youtubeGiga {
+  position: absolute;
+  top: 67%;
+  right: 10%;
+  transform: translateX(-50%);
+  z-index: 500;
+}
+
+/* Media query for screens with a max width of 900px */
+@media (max-width: 900px) {
+  .discordGiga {
+    top: 65%;
+    left: 5%;
+    transform: scale(0.6);
+  }
+  .gitGiga {
+    top: 52%;
+    left: 25%;
+    transform: scale(0.6);
+  }
+  .stackGiga {
+    top: 61%;
+    left: 52%;
+    transform: scale(0.6);
+  }
+  .quoraGiga {
+    top: 74%;
+    right: 19%;
+    transform: scale(0.6);
+  }
+  .redditGiga {
+    top: 76%;
+    right: 6%;
+    transform: scale(0.6);
+  }
+  .youtubeGiga {
+    top: 66%;
+    right: 0%;
+    transform: scale(0.6);
+  }
+}
+/* Media query for screens with a max width of 360px */
+@media (max-width: 360px) {
+  .join-network-container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .join-network-header {
+    font-size: 30px;
+    padding-top: 40%;
+  }
+  .discordGiga {
+    top: 25%;
+    left: 0%;
+    transform: scale(0.4);
+  }
+  .gitGiga {
+    top: 39%;
+    left: 0%;
+    transform: scale(0.4);
+  }
+  .stackGiga {
+    top: 35%;
+    left: -15%;
+    transform: scale(0.4);
+  }
+  .quoraGiga {
+    top: 54%;
+    left: -15%;
+    transform: scale(0.4);
+  }
+  .redditGiga {
+    top: 59%;
+    left: 0%;
+    transform: scale(0.4);
+  }
+  .youtubeGiga {
+    top: 63%;
+    left: 25%;
+    transform: scale(0.4);
+  }
+}/*# sourceMappingURL=JoinNetwork.css.map */

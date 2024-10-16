@@ -1,0 +1,104 @@
+@import "../../colors/colors.scss";
+
+.contributors-container {
+	background-color: $purple;
+	width: 100%;
+	padding-left: 20%;
+	box-sizing: border-box;
+	position: relative;
+	overflow-x: hidden; // Prevent horizontal scrolling
+}
+
+.contributors-header {
+	font-size: 80px;
+	width: 60%;
+	color: $white;
+	margin-bottom: 20px;
+}
+
+.contributors-sections {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 80%;
+	margin-top: 20px;
+}
+
+.contributors-section {
+	width: 20%; /* Three sections per row */
+	margin-right: 10%;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.contributors-image {
+	width: 100%;
+	height: auto;
+	max-width: 220px;
+	max-height: 220px;
+	padding: 0;
+	margin: 0;
+}
+
+.contributors-section-header {
+	font-size: 30px;
+	color: $neon-green;
+	padding: 0;
+	margin: 0;
+}
+
+.contributors-section-text {
+	color: $white;
+	font-size: 28px;
+	padding: 0;
+	margin: 0;
+}
+
+.join-btn-image {
+	width: 250px;
+	height: auto;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.contributors-footer {
+	font-size: 44px;
+	color: $white;
+	margin-top: 40px;
+	text-align: left;
+}
+
+/* Media query for screens with a max width of 900px */
+@media (max-width: 900px) {
+	.contributors-header {
+		font-size: 60px;
+		width: 100%;
+	}
+	.contributors-section {
+		width: 35%; /* Two sections per row */
+	}
+
+	.contributors-footer {
+		font-size: 36px;
+	}
+}
+
+/* Media query for screens with a max width of 360px */
+@media (max-width: 360px) {
+	.contributors-header {
+		font-size: 30px;
+		width: 100%;
+	}
+
+	.contributors-sections {
+		width: 100%;
+	}
+
+	.contributors-section {
+		width: 100%; /* Full width for each section */
+	}
+
+	.contributors-footer {
+		font-size: 30px;
+	}
+}

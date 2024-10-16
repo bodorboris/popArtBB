@@ -153,7 +153,7 @@ function Hero() {
 			<animated.img
 				src={devetgonYellow}
 				alt="Devetgon Yellow"
-				className="devetgon-yellow"
+				className="devetgon-yellow-hero"
 				style={spinSpring}
 				onMouseEnter={() =>
 					setSpinSpring({ transform: "rotate(360deg)" })
@@ -162,7 +162,9 @@ function Hero() {
 					setSpinSpring({ transform: "rotate(0deg)" })
 				}
 			/>
-			<OctagonStar className="octagon-star" />
+			<div className="octagon-star-hero">
+				<OctagonStar />
+			</div>
 		</div>
 	);
 }

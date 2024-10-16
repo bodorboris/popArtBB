@@ -57,15 +57,16 @@
 	}
 }
 
-.devetgon-yellow {
+.devetgon-yellow-hero {
 	position: absolute;
 	bottom: -5%;
-	right: 30%;
+	right: 28%;
 	width: 100px; // Adjust size as needed
 	height: auto;
+	z-index: 10; // Ensure it stays on top of other elements
 }
 
-.octagon-star {
+.octagon-star-hero {
 	position: absolute;
 	bottom: 5%;
 	left: 20%;
@@ -115,11 +116,11 @@
 		}
 	}
 
-	.devetgon-yellow {
+	.devetgon-yellow-hero {
 		right: 10%;
 	}
 
-	.octagon-star {
+	.octagon-star-hero {
 		left: 10%;
 	}
 }
@@ -146,11 +147,11 @@
 		}
 	}
 
-	.devetgon-yellow {
+	.devetgon-yellow-hero {
 		right: 5%;
 	}
 
-	.octagon-star {
+	.octagon-star-hero {
 		left: 5%;
 	}
 }

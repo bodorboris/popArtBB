@@ -53,15 +53,16 @@
   margin-bottom: 10px;
 }
 
-.devetgon-yellow {
+.devetgon-yellow-hero {
   position: absolute;
   bottom: -5%;
-  right: 30%;
+  right: 28%;
   width: 100px;
   height: auto;
+  z-index: 10;
 }
 
-.octagon-star {
+.octagon-star-hero {
   position: absolute;
   bottom: 5%;
   left: 20%;
@@ -104,10 +105,10 @@
   .hero-images .social-logo {
     margin: 0 10px;
   }
-  .devetgon-yellow {
+  .devetgon-yellow-hero {
     right: 10%;
   }
-  .octagon-star {
+  .octagon-star-hero {
     left: 10%;
   }
 }
@@ -127,10 +128,10 @@
     height: 20px;
     margin: 0 5px;
   }
-  .devetgon-yellow {
+  .devetgon-yellow-hero {
     right: 5%;
   }
-  .octagon-star {
+  .octagon-star-hero {
     left: 5%;
   }
 }/*# sourceMappingURL=Hero.css.map */

@@ -1,0 +1,152 @@
+.bogdan-container {
+  background-color: #361281;
+  width: 100%;
+  padding-left: 20%;
+  box-sizing: border-box;
+  position: relative;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  padding-bottom: 15%;
+  padding-top: 10%;
+}
+
+.bogdan-image {
+  width: 450px; /* Adjust as needed */
+  height: auto;
+  margin-right: 20px;
+}
+
+.bogdan-text-container {
+  color: #FFFFFF;
+  width: 50%;
+}
+
+.bogdan-main-header {
+  font-size: 54px;
+  margin: 0;
+  color: #D5FF2F;
+}
+
+.bogdan-sub-header {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.bogdan-paragraph {
+  font-size: 25px;
+  padding-left: 8%;
+}
+
+.bogdanStar {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  transform: translateX(-50%);
+}
+
+.bogdanArrows {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bogdanHexa {
+  position: absolute;
+  bottom: 15%;
+  right: 5%;
+  transform: translateX(-50%);
+}
+
+.blockerDiv {
+  position: absolute;
+  top: 55%;
+  right: 48%;
+  transform: translateX(-50%);
+  z-index: 500;
+}
+
+/* Media query for screens with a max width of 900px */
+@media (max-width: 900px) {
+  .bogdan-container {
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .bogdan-image {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .bogdan-text-container {
+    width: 100%;
+    text-align: center;
+  }
+  .bogdan-main-header {
+    font-size: 40px;
+  }
+  .bogdan-sub-header {
+    font-size: 24px;
+  }
+  .bogdan-paragraph {
+    font-size: 20px;
+    padding-left: 0;
+  }
+  .bogdanStar {
+    top: 10%;
+    left: 10%;
+    transform: translateX(0);
+  }
+  .bogdanArrows {
+    visibility: hidden;
+  }
+  .bogdanHexa {
+    bottom: 10%;
+    right: 10%;
+    transform: translateX(0);
+  }
+  .blockerDiv {
+    visibility: hidden;
+  }
+}
+/* Media query for screens with a max width of 360px */
+@media (max-width: 360px) {
+  .bogdan-container {
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .bogdan-image {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .bogdan-text-container {
+    width: 100%;
+    text-align: center;
+  }
+  .bogdan-main-header {
+    font-size: 30px;
+  }
+  .bogdan-sub-header {
+    font-size: 20px;
+  }
+  .bogdan-paragraph {
+    font-size: 16px;
+    padding-left: 0;
+  }
+  .bogdanStar {
+    visibility: hidden;
+  }
+  .bogdanArrows {
+    visibility: hidden;
+  }
+  .bogdanHexa {
+    bottom: 2%;
+    right: 15%;
+    transform: translateX(0);
+    scale: 0.5;
+  }
+  .blockerDiv {
+    visibility: hidden;
+  }
+}/*# sourceMappingURL=BogdanIsHere.css.map */

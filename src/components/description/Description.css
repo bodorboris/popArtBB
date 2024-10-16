@@ -1,0 +1,103 @@
+.description-container {
+  background-color: #361281;
+  width: 100%;
+  padding-left: 20%;
+  box-sizing: border-box;
+  position: relative; /* Ensure child elements are positioned relative to this container */
+}
+
+.description-header {
+  font-size: 80px;
+  width: 60%;
+  color: #FFFFFF;
+}
+
+.description-neon-green-text {
+  color: #D5FF2F;
+}
+
+.description-paragraph {
+  width: 50%;
+  margin-top: 20px;
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+.description-image-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.description-image-container img {
+  width: 80%;
+  height: 50%;
+  padding-bottom: 5%;
+}
+
+.orangeGrid {
+  position: absolute;
+  left: 2%;
+  top: 70%;
+  transform: translateY(-50%);
+}
+
+.starDiv {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+  transform: translateY(-50%);
+}
+
+.arrowDiv {
+  position: absolute;
+  left: 70%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+
+/* Media query for screens with a max width of 900px */
+@media (max-width: 900px) {
+  .description-header {
+    font-size: 60px;
+    width: 80%;
+  }
+  .description-paragraph {
+    width: 70%;
+    font-size: 20px;
+  }
+  .orangeGrid {
+    top: 60%;
+  }
+  .starDiv {
+    top: 50%;
+  }
+  .arrowDiv {
+    left: 80%;
+    top: 25%;
+  }
+}
+/* Media query for screens with a max width of 360px */
+@media (max-width: 360px) {
+  .description-header {
+    font-size: 40px;
+    width: 100%;
+  }
+  .description-paragraph {
+    width: 100%;
+    font-size: 16px;
+  }
+  .orangeGrid {
+    top: 50%;
+  }
+  .starDiv {
+    top: 40%;
+    display: none;
+  }
+  .arrowDiv {
+    left: 70%;
+    top: 2%;
+    transform: translate(-50%, -50%);
+  }
+}/*# sourceMappingURL=Description.css.map */
